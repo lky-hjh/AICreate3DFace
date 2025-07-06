@@ -1,20 +1,13 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 #include "FaceToonPlugin.h"
 
-#define LOCTEXT_NAMESPACE "FFaceToonPluginModule"
-
-void FFaceToonPluginModule::StartupModule()
+void FFaceToonPlugin::StartupModule()
 {
-	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
+	// 初始化模块
 }
 
-void FFaceToonPluginModule::ShutdownModule()
+void FFaceToonPlugin::ShutdownModule()
 {
-	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
-	// we call this function before unloading the module.
+	// 清理资源
 }
 
-#undef LOCTEXT_NAMESPACE
-	
-IMPLEMENT_MODULE(FFaceToonPluginModule, FaceToonPlugin)
+IMPLEMENT_MODULE(FFaceToonPlugin, FaceToonPlugin)
