@@ -1,0 +1,82 @@
+# Python 相关忽略
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+*.egg
+.pip-log.txt
+.pip-delete-this-directory.txt
+
+# 虚拟环境
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE 和编辑器配置文件
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+
+# 日志和数据库文件
+*.log
+*.db
+
+# 生成的输出文件
+output/
+*.obj
+*.mtl
+*.jpg  # 仅忽略生成的 JPG 文件，保留 input.jpg
+
+# 保留特定输入文件
+!input.jpg
+
+# Unreal Engine 相关忽略
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.build
+*.tlog
+*.log
+*.idb
+*.pdb
+*.suo
+*.opensdf
+*.sdf
+*.cachefile
+*.aps
+*.obj
+*.exp
+*.lib
+*.db
+*.opensdf
+*.sdf
+*.cachefile
+*.aps
+*.obj
+*.exp
+*.lib
+*.db
+
+# 其他临时文件
+*.bak
+*.tmp
+*.temp
+*.swp
+*~
+.DS_Store
