@@ -42,6 +42,7 @@ output/
 !input.jpg
 
 # Unreal Engine 相关忽略
+ThirdPerson/
 Binaries/
 Intermediate/
 DerivedDataCache/
