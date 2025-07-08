@@ -43,6 +43,9 @@ output/
 
 # Unreal Engine 相关忽略
 ThirdPerson/
+LevelPrototyping/
+Mannequin_UE4/
+Mannequins/
 Binaries/
 Intermediate/
 DerivedDataCache/
@@ -81,3 +84,5 @@ Saved/
 *.swp
 *~
 .DS_Store
+AICreate3DFaceInUE/Temp/cartoon_texture.jpg
+AICreate3DFaceInUE/Temp/output.json

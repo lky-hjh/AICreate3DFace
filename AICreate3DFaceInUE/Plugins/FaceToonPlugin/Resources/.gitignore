@@ -1,0 +1,45 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 虚拟环境
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints
+
+# VSCode 配置
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.swp
+
+# 数据集和输出
+*.csv
+*.h5
+*.npz
+*.npy
+
+# 图片和视频输出
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.mp4
+*.avi
+
+# pip 缓存
+pip-wheel-metadata/
