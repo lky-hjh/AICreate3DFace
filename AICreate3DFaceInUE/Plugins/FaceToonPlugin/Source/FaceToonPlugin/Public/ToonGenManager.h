@@ -12,5 +12,5 @@ class UToonGenManager : public UObject
 
 public:
 	UFUNCTION(BlueprintCallable, Category = "FaceToon")
-	void GenerateAndLoadModel(const FString& ImagePath, UProceduralMeshComponent* MeshComponent);
+	static void GenerateAndLoadModel(UObject* Target, const FString& ImagePath, const FString& JsonOutputPath, const FString& TextureOutputPath, UProceduralMeshComponent* MeshComponent);
 };
